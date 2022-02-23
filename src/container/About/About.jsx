@@ -6,6 +6,7 @@ import './About.scss';
 import { urlFor, client } from '../../client';
 
 const About = () => {
+
   const [abouts, setAbouts] = useState([]);
   
   useEffect(() => {
